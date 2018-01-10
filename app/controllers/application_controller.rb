@@ -44,5 +44,4 @@ class ApplicationController < Sinatra::Base
     @user = User.find(session[:id])
     erb :'/users/home'
   end
-
 end
